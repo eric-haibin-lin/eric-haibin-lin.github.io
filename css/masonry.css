@@ -1,0 +1,16 @@
+*, *:before, *:after {box-sizing:  border-box !important;}
+
+
+.mansonry-row {
+ -moz-column-width: 25em;
+ -webkit-column-width: 25em;
+ -moz-column-gap: -1em;
+ -webkit-column-gap: -1em; 
+}
+
+.menu-category {
+ display: inline-block;
+ margin:  0.25rem;
+ padding:  1rem;
+ width:  100%; 
+}
