@@ -647,7 +647,7 @@ section h3.section-subheading {
 
 .team-member img {
     margin: 0 auto;
-    border: 7px solid #fff;
+    border: 10px solid #555;
 }
 
 .team-member h4 {
@@ -872,4 +872,8 @@ img::-moz-selection {
 
 body {
     webkit-tap-highlight-color: #fed136;
+}
+
+#profile_img_container{
+    padding-top: 0px;
 }
