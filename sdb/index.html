@@ -76,10 +76,13 @@
                         <a class="page-scroll" href="#portfolio">Documentation</a>
                     </li>
                     <li>
-                        <a class="page-scroll" href="#about">Milestones</a>
+                        <a class="page-scroll" href="#poster">Poster</a>
                     </li>
                     <li>
                         <a class="page-scroll" href="#team">Team</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#about">Milestones</a>
                     </li>
                     <li>
                         <a class="page-scroll" href="#footer">Contact</a>
@@ -138,14 +141,13 @@
                 </div>
             </div>
             <div class="row text-center">
-                
                 <div class="col-md-4">
                     <span class="fa-stack fa-4x">
                         <i class="fa fa-circle fa-stack-2x text-primary"></i>
                         <i class="fa fa-lock fa-stack-1x fa-inverse"></i>
                     </span>
                     <h4 class="service-heading">Security</h4>
-                    <p class="text-muted">SDB is secure. Even the server is compromised, database administrator cannot observe the plaintext of sensitive data resident in the cloud.</p>
+                    <p class="text-muted">SDB is secure against database knowledge threat, query result threat and chosen ciphertext threat.</p>
                 </div>
 
                 <div class="col-md-4">
@@ -154,7 +156,7 @@
                         <i class="fa fa-laptop fa-stack-1x fa-inverse"></i>
                     </span>
                     <h4 class="service-heading">Performance</h4>
-                    <p class="text-muted">Since secure operators are implemented as UDF(user defined function), there's no inter-process communication, less memory copy and network transfer.</p>
+                    <p class="text-muted">Since secure operators are implemented as User Defined Functions, there's no inter-process communication, less memory copy and network transfer.</p>
                 </div>
 
                 <div class="col-md-4">
@@ -163,9 +165,13 @@
                         <i class="fa fa-shopping-cart fa-stack-1x fa-inverse"></i>
                     </span>
                     <h4 class="service-heading">Extensibility</h4>
-                    <p class="text-muted">SecureDB components are developed as add-ons on top of an existing DB such that we leverage as much advanced techniques provided by a DB as possible(e.g. query optimization, parallel processing).</p>
+                    <p class="text-muted">SecureDB components are developed as add-ons on top of an existing DB such that we leverage as much advanced techniques provided by a DB as possible(e.g. normal query optimization, parallel processing, cluster management).</p>
                 </div>
-                
+            </div>
+            <div class="row" style="margin-top: 70px;">
+                <div class="col-lg-12"> 
+                    <img src="img/about/poster.png" class="img-responsive" alt="">
+                </div>
             </div>
         </div>
     </section>
@@ -209,83 +215,100 @@
                     </div>
                 </div>
 				<div class="col-md-4 col-sm-6 portfolio-item">
-                    <a href="http://i.cs.hku.hk/~fyp14008/sdb/documentation/URFP.pdf" class="portfolio-link" data-toggle="modal">
+                    <a href="http://i.cs.hku.hk/~fyp14008/sdb/documentation/SDB Project Report.pdf" class="portfolio-link" data-toggle="modal">
                         <div class="portfolio-hover">
                             <div class="portfolio-hover-content">
                                 <i class="fa fa-cloud-download fa-3x"></i>
                             </div>
                         </div>
-                        <img src="img/portfolio/urfp.png" class="img-responsive" alt="">
+                        <img src="img/portfolio/report.png" class="img-responsive" alt="">
                     </a>
                     <div class="portfolio-caption">
-                        <h4>URFP Report</h4>
-                        <p class="text-muted">Report for Summer Research</p>
-                    </div>
-                </div>
-                <!--
-                <div class="col-md-4 col-sm-6 portfolio-item">
-                    <a href="#portfolioModal3" class="portfolio-link" data-toggle="modal">
-                        <div class="portfolio-hover">
-                            <div class="portfolio-hover-content">
-                                <i class="fa fa-plus fa-3x"></i>
-                            </div>
-                        </div>
-                        <img src="img/portfolio/treehouse.png" class="img-responsive" alt="">
-                    </a>
-                    <div class="portfolio-caption">
-                        <h4>Treehouse</h4>
-                        <p class="text-muted">Website Design</p>
+                        <h4>Project Report</h4>
+                        <p class="text-muted">Detailed Final Year Project Report</p>
                     </div>
                 </div>
                 <div class="col-md-4 col-sm-6 portfolio-item">
-                    <a href="#portfolioModal4" class="portfolio-link" data-toggle="modal">
+                    <a href="https://www.youtube.com/watch?v=Ze200Ax-1Hc" class="portfolio-link" data-toggle="modal">
                         <div class="portfolio-hover">
                             <div class="portfolio-hover-content">
-                                <i class="fa fa-plus fa-3x"></i>
+                                <i class="fa fa-play fa-3x"></i>
                             </div>
                         </div>
-                        <img src="img/portfolio/golden.png" class="img-responsive" alt="">
+                        <img src="img/portfolio/video.png" class="img-responsive" alt="">
                     </a>
                     <div class="portfolio-caption">
-                        <h4>Golden</h4>
-                        <p class="text-muted">Website Design</p>
+                        <h4>Project Demonstration</h4>
+                        <p class="text-muted">Video demonstration of SDB's web interface(1'30)</p>
                     </div>
                 </div>
-                <div class="col-md-4 col-sm-6 portfolio-item">
-                    <a href="#portfolioModal5" class="portfolio-link" data-toggle="modal">
-                        <div class="portfolio-hover">
-                            <div class="portfolio-hover-content">
-                                <i class="fa fa-plus fa-3x"></i>
-                            </div>
-                        </div>
-                        <img src="img/portfolio/escape.png" class="img-responsive" alt="">
-                    </a>
-                    <div class="portfolio-caption">
-                        <h4>Escape</h4>
-                        <p class="text-muted">Website Design</p>
-                    </div>
-                </div>
-                <div class="col-md-4 col-sm-6 portfolio-item">
-                    <a href="#portfolioModal6" class="portfolio-link" data-toggle="modal">
-                        <div class="portfolio-hover">
-                            <div class="portfolio-hover-content">
-                                <i class="fa fa-plus fa-3x"></i>
-                            </div>
-                        </div>
-                        <img src="img/portfolio/dreams.png" class="img-responsive" alt="">
-                    </a>
-                    <div class="portfolio-caption">
-                        <h4>Dreams</h4>
-                        <p class="text-muted">Website Design</p>
-                    </div>
-                </div>
-            -->
+
             </div>
         </div>
     </section>
 
+    <!-- Team Section -->
+    <section id="team" >
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2 class="section-heading">Our Team</h2>
+                    <h3 class="section-subheading text-muted">SDB is the final year project of Haibin Lin, supervised by Prof. Ben Kao.</h3>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm-6">
+                    <div class="team-member">
+                        <img src="img/team/1.jpg" class="img-responsive img-circle" alt="">
+                        <h4>Haibin Lin, Eric</h4>
+                        <p class="text-muted">Undergraduate at HKU CS</p> 
+                        <!-- 
+                        <ul class="list-inline social-buttons">
+                            <li><a href="#"><i class="fa fa-twitter"></i></a>
+                            </li>
+                            <li><a href="#"><i class="fa fa-facebook"></i></a>
+                            </li>
+                            <li><a href="#"><i class="fa fa-linkedin"></i></a>
+                            </li>
+                        </ul>-->
+                    </div>
+                </div>
+
+                <!--
+                 <div class="col-sm-4">
+                    <div class="team-member">
+                        <img src="img/team/2.jpg" class="img-responsive img-circle" alt="">
+                        <h4>Larry Parker</h4>
+                        <p class="text-muted">Lead Marketer</p>
+                        <ul class="list-inline social-buttons">
+                            <li><a href="#"><i class="fa fa-twitter"></i></a>
+                            </li>
+                            <li><a href="#"><i class="fa fa-facebook"></i></a>
+                            </li>
+                            <li><a href="#"><i class="fa fa-linkedin"></i></a>
+                            </li>
+                        </ul>
+                    </div>
+                </div> -->
+                <div class="col-sm-6">
+                    <div class="team-member">
+                        <img src="img/team/3.jpg" class="img-responsive img-circle" alt="">
+                        <h4>Prof. Benjamin Kao</h4>
+                        <p class="text-muted">Professor at HKU Database Group</p> 
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <!--<div class="row">
+                <div class="col-lg-8 col-lg-offset-2 text-center">
+                    <p class="large text-muted">SDB project is Haibin's final year project.</p>
+                </div>
+            </div>-->
+        </div>
+    </section>
+
     <!-- About Section -->
-    <section id="about">
+    <section id="about" class="bg-light-gray">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 text-center">
@@ -375,73 +398,6 @@
                     </ul>
                 </div>
             </div>
-        </div>
-    </section>
-
-    <!-- Team Section -->
-    <section id="team" class="bg-light-gray">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12 text-center">
-                    <h2 class="section-heading">Our Team</h2>
-                    <h3 class="section-subheading text-muted">SDB is the final year project of Haibin Lin, supervised by Prof. Ben Kao.</h3>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-sm-6">
-                    <div class="team-member">
-                        <img src="img/team/1.jpg" class="img-responsive img-circle" alt="">
-                        <h4>Haibin Lin, Eric</h4>
-                        <p class="text-muted">Undergraduate at HKU CS</p> 
-                        <!-- 
-                        <ul class="list-inline social-buttons">
-                            <li><a href="#"><i class="fa fa-twitter"></i></a>
-                            </li>
-                            <li><a href="#"><i class="fa fa-facebook"></i></a>
-                            </li>
-                            <li><a href="#"><i class="fa fa-linkedin"></i></a>
-                            </li>
-                        </ul>-->
-                    </div>
-                </div>
-
-                <!--
-                 <div class="col-sm-4">
-                    <div class="team-member">
-                        <img src="img/team/2.jpg" class="img-responsive img-circle" alt="">
-                        <h4>Larry Parker</h4>
-                        <p class="text-muted">Lead Marketer</p>
-                        <ul class="list-inline social-buttons">
-                            <li><a href="#"><i class="fa fa-twitter"></i></a>
-                            </li>
-                            <li><a href="#"><i class="fa fa-facebook"></i></a>
-                            </li>
-                            <li><a href="#"><i class="fa fa-linkedin"></i></a>
-                            </li>
-                        </ul>
-                    </div>
-                </div> -->
-                <div class="col-sm-6">
-                    <div class="team-member">
-                        <img src="img/team/3.jpg" class="img-responsive img-circle" alt="">
-                        <h4>Prof. Benjamin Kao</h4>
-                        <p class="text-muted">Professor at HKU Database Group</p> 
-                        <!-- <ul class="list-inline social-buttons">
-                            <li><a href="#"><i class="fa fa-twitter"></i></a>
-                            </li>
-                            <li><a href="#"><i class="fa fa-facebook"></i></a>
-                            </li>
-                            <li><a href="#"><i class="fa fa-linkedin"></i></a>
-                            </li>-->
-                        </ul>
-                    </div>
-                </div>
-            </div>
-            <!--<div class="row">
-                <div class="col-lg-8 col-lg-offset-2 text-center">
-                    <p class="large text-muted">SDB project is Haibin's final year project.</p>
-                </div>
-            </div>-->
         </div>
     </section>
 
@@ -537,11 +493,11 @@
                     <ul class="list-inline social-buttons">
                         <!--<li><a href="#"><i class="fa fa-twitter"></i></a>
                         </li>-->
-                        <li><a href="https://www.facebook.com/eric.comeon"><i class="fa fa-facebook"></i></a>
+                        <li><a href="https://www.facebook.com/haibin.lin.eric"><i class="fa fa-facebook"></i></a>
                         </li>
                         <li><a href="http://hk.linkedin.com/in/linhaibin/"><i class="fa fa-linkedin"></i></a>
                         </li>
-                        <li><a href="https://github.com/qboy40408657/SDB-maven"><i class="fa fa-github-alt"></i></a>
+                        <li><a href="https://github.com/eric-haibin-lin/SecureDB"><i class="fa fa-github-alt"></i></a>
                         </li>
                     </ul>
                 </div>
